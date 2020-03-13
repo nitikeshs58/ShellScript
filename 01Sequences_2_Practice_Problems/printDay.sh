@@ -18,17 +18,17 @@ elif [[ $dayT -eq 2 ]]
 		echo "Monday"
 elif [[ $dayT -eq 3 ]]
    then
-        echo "Tuesday"
+       echo "Tuesday"
 elif [[ $dayT -eq 4 ]]
    then
         echo "Wednesday"
 elif [[ $dayT -eq 5 ]]
    then
-        echo "Thursday"
+       echo "Thursday"
 elif [[ $dayT -eq 6 ]]
    then
-        echo "Friday"
+       echo "Friday"
 elif [[ $dayT -eq 7 ]]
    then
-        echo "Saturday"
+       echo "Saturday"
 fi
