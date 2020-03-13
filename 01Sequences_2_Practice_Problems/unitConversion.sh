@@ -9,8 +9,3 @@ areaOfPlot=`expr "scale=2;$l*$b/3.28" | bc`
 
 
 plotAcres=`expr "scale=2;$areaOfPlot*25/4048.8" | bc`
-
-
-
-
-
