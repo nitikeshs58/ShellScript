@@ -1,0 +1,19 @@
+#!/bin/bash -x
+
+first=$((RANDOM%100))
+echo $first
+
+sec=$((RANDOM%100)) 
+echo $sec
+
+third=$((RANDOM%100)) 
+echo $third
+
+forth=$((RANDOM%100)) 
+echo $forth
+
+fifth=$((RANDOM%100)) 
+echo $fifth
+
+sum=$((first+sec+third+forth+fifth))
+echo $sum
