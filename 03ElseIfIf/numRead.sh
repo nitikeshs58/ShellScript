@@ -21,5 +21,3 @@ then
 else
 	echo "!!! Envalid : Enter only1 10 100  like this!!!"
 fi
-
-
