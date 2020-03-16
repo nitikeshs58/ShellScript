@@ -4,18 +4,18 @@ read -p "Enter a number : " num
 
 case $num in
 		1)
-			echo "One"
+		echo "One"
 		;;
 		10)
-			echo "Ten"
+		echo "Ten"
 		;;
 		100)
-			echo "Hundred"
+		echo "Hundred"
 		;;
 		1000)
-			echo "One Thousand"
+		echo "One Thousand"
 		;;
 		*)
-			echo "!!!Envalid!!!"
+		echo "!!!Envalid!!!"
 		;;
 esac
