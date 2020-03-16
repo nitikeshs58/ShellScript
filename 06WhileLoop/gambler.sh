@@ -27,11 +27,11 @@ echo "numbOfBets :" $numbOfBets
 echo "Number of wins :" $wins 
 echo "number of losts :" $lost
 
-   if [[ $currentRupees -eq 0 ]]
-   then
-		echo "!!No more money to gamble!! currentBalance :"$currentRupees
+if [[ $currentRupees -eq 0 ]]
+then
+	echo "!!No more money to gamble!! currentBalance :"$currentRupees
 
-	elif [[ $currentRupees -eq $GOAL ]]
-	then
-		echo "Hurryy !!You won and reached your goal. CurrentBalance :"$currentRupees
-	fi
+elif [[ $currentRupees -eq $GOAL ]]
+then
+	echo "Hurryy !!You won and reached your goal. CurrentBalance :"$currentRupees
+fi
