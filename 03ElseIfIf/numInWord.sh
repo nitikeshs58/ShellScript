@@ -7,33 +7,32 @@ then
 	echo "One"
 elif [[ $num -eq 2 ]]
 then
-   echo "Two"
+	echo "Two"
 elif [[ $num -eq 3 ]]
 then
-   echo "Three"
+	echo "Three"
 elif [[ $num -eq 4 ]]
 then
-   echo "Four"
+	echo "Four"
 elif [[ $num -eq 5 ]]
 then
-   echo "five"
+	echo "five"
 elif [[ $num -eq 6 ]]
 then
-   echo "Six"
+	echo "Six"
 elif [[ $num -eq 7 ]]
 then
-   echo "Seven"
+	echo "Seven"
 elif [[ $num -eq 8 ]]
 then
-   echo "Eight"
+	echo "Eight"
 elif [[ $num -eq 9 ]]
 then
-   echo "Nine"
+	echo "Nine"
 elif [[ $num -eq 0 ]]
 then
-   echo "Zero"
+	echo "Zero"
 
 else
 	echo "!!! Enter single digit number. !!!"
 fi
-
