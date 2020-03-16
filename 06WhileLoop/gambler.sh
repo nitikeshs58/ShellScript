@@ -18,20 +18,20 @@ do
 		currentRupees=$(($currentRupees+$BET_RUPEES))
 		wins=$((wins+1))
 	else
-   	currentRupees=$(($currentRupees-$BET_RUPEES))
-   	lost=$((lost+1))
+		currentRupees=$(($currentRupees-$BET_RUPEES))
+		lost=$((lost+1))
 	fi
 done
-	
-	echo "numbOfBets :" $numbOfBets
-   echo "Number of wins :" $wins 
-	echo "number of losts :" $lost
+
+echo "numbOfBets :" $numbOfBets
+echo "Number of wins :" $wins 
+echo "number of losts :" $lost
 
    if [[ $currentRupees -eq 0 ]]
    then
-      echo "!!No more money to gamble!! currentBalance :"$currentRupees
- 
-   elif [[ $currentRupees -eq $GOAL ]]
-   then
-      echo "Hurryy !!You won and reached your goal. CurrentBalance :"$currentRupees
-   fi
+		echo "!!No more money to gamble!! currentBalance :"$currentRupees
+
+	elif [[ $currentRupees -eq $GOAL ]]
+	then
+		echo "Hurryy !!You won and reached your goal. CurrentBalance :"$currentRupees
+	fi
