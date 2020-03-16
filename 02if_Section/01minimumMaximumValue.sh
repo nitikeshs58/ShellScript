@@ -37,17 +37,17 @@ if [[ $sec -lt $min ]]
 fi
 
 if [[ $third -lt $min ]]
-   then
-      min=$third
+	then
+		min=$third
 fi
 
 if [[ $fourth -lt $min ]]
-   then
-      min=$fourth
+	then
+		min=$fourth
 fi
 
 if [[ $fifth -lt $min ]]
    then
-      min=$fifth
+		min=$fifth
 fi
 echo $min
