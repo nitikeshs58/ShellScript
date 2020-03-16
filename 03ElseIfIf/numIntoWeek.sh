@@ -12,23 +12,23 @@ then
 
 elif [[ $num -eq 3 ]]
 then
-   echo "Wednesday"
+	echo "Wednesday"
 
 elif [[ $num -eq 4 ]]
 then
-   echo "Thursday"
+	echo "Thursday"
 
 elif [[ $num -eq 5 ]]
 then
-   echo "Friday"
+	echo "Friday"
 
 elif [[ $num -eq 6 ]]
 then
-   echo "Saturday"
+	echo "Saturday"
 
 elif [[ $num -eq 7 ]]
 then
-   echo "Sunday"
+	echo "Sunday"
 
 else
 	echo "!!!  Enter 1 to 7 only. !!!"
