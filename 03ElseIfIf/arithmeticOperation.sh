@@ -31,16 +31,16 @@ min=$operation1
 
 if [[ $operation2 -lt min ]]
 then
-   min=$operation2
+	min=$operation2
 
 elif [[ $operation3 -lt min ]]
 then
-   min=$operation3
+	min=$operation3
 
 elif [[ $operation4 -gt min ]]
 then
-   min=$operation4
+	min=$operation4
 
 fi
-   echo $min
+	echo $min
 
